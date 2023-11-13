@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createSimpleStorageContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "simpleStorageArray",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StorageFactory.sol": "StorageFactory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SimpleStorage.sol": {
+			"keccak256": "0x8a727326d1bea6f84cd50c012005e77c2334e4be9082fb87a5ccefcaa4fe57fd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ec8c01905c4e68375f9a7473c82a6a15a7d06b9ba0eced0cd32870a9b7f42cc2",
+				"dweb:/ipfs/QmXxZh8VDbZv4Vfx7cVpoNwG9jekJKgeHV5Gyzb1PAQyVx"
+			]
+		},
+		"contracts/StorageFactory.sol": {
+			"keccak256": "0x7524864f98618280e169c4a26bba234d7ad40c3364fadb57e276e1565a13d106",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://08d7d1fad8b545cbb018137b270ffcc48dd5f08a186abd2ddfcbb5a0834b156a",
+				"dweb:/ipfs/QmctFhCDwcHuFwXYyzG6LhwRnHJrVb8iibSRCo8CapHVfu"
+			]
+		}
+	},
+	"version": 1
+}
